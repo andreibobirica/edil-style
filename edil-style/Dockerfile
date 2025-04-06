@@ -1,13 +1,13 @@
 FROM node:20-alpine
 
 # Create app directory
-WORKDIR /app
-
-# Copy package files and install dependencies
-RUN npm ci
+WORKDIR .
 
 # Copy the rest of the application
 COPY . .
+
+# npm ci
+RUN npm ci
 
 # Build the Next.js app
 RUN npm run build
