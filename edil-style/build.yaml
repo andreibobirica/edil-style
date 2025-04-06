@@ -5,9 +5,9 @@ build_from:
   armv7: ghcr.io/home-assistant/armv7-base:3.15
   i386: ghcr.io/home-assistant/i386-base:3.15
 labels:
-  org.opencontainers.image.title: "Home Assistant Add-on: Edil Style Website"
-  org.opencontainers.image.description: "Next.js Website for Edil Style"
-  org.opencontainers.image.source: "https://github.com/yourusername/edil-style"
+  org.opencontainers.image.title: "Edil Style Website"
+  org.opencontainers.image.description: "Website for Edil Style"
+  org.opencontainers.image.source: "https://github.com/andreibobirica/edil-style"
   org.opencontainers.image.licenses: "MIT"
 args:
   NODE_VERSION: 20 

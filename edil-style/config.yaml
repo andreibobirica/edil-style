@@ -1,5 +1,5 @@
 name: "Edil Style Website"
-description: "Next.js Website for Edil Style"
+description: "Website for Edil Style"
 version: "1.0.0"
 slug: "edil_style"
 init: false
